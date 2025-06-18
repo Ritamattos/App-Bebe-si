@@ -254,7 +254,7 @@ const App = () => {
             className="w-full bg-white text-green-600 py-4 px-6 rounded-2xl font-bold text-xl flex items-center justify-center space-x-3 shadow-lg hover:bg-green-50 transition-colors"
           >
             <Play className="w-6 h-6" />
-            <span>Começar Jogo</span>
+            <span>Empezar Juego</span>
           </button>
 
           <button
@@ -262,7 +262,7 @@ const App = () => {
             className="w-full bg-green-500 text-white py-4 px-6 rounded-2xl font-bold text-lg flex items-center justify-center space-x-3 shadow-lg hover:bg-green-400 transition-colors"
           >
             <Plus className="w-6 h-6" />
-            <span>Criar Perguntas</span>
+            <span>Crear Preguntas</span>
           </button>
 
           <button
@@ -270,13 +270,13 @@ const App = () => {
             className="w-full bg-green-500 text-white py-4 px-6 rounded-2xl font-bold text-lg flex items-center justify-center space-x-3 shadow-lg hover:bg-green-400 transition-colors"
           >
             <Users className="w-6 h-6" />
-            <span>Como Jogar</span>
+            <span>Cómo Jugar</span>
           </button>
         </div>
 
         <div className="mt-8 bg-white/20 rounded-2xl p-4 text-center">
           <p className="text-white text-sm">
-            <strong>{perguntasPadrao.length + customQuestions.length}</strong> perguntas disponíveis
+            <strong>{perguntasPadrao.length + customQuestions.length}</strong> Preguntas disponibles
           </p>
           <p className="text-green-100 text-xs mt-1">
             {customQuestions.length} perguntas personalizadas
