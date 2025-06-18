@@ -405,7 +405,7 @@ const App = () => {
           >
             <Home className="w-6 h-6" />
           </button>
-          <h2 className="text-2xl font-bold text-white">Como Jogar</h2>
+          <h2 className="text-2xl font-bold text-white">Cómo jugar</h2>
         </div>
 
         <div className="bg-white rounded-3xl p-6 shadow-2xl space-y-6">
