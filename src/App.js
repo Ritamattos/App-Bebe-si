@@ -279,7 +279,7 @@ const App = () => {
             <strong>{perguntasPadrao.length + customQuestions.length}</strong> Preguntas disponibles
           </p>
           <p className="text-green-100 text-xs mt-1">
-            {customQuestions.length} perguntas personalizadas
+            {customQuestions.length} Preguntas personalizadas
           </p>
         </div>
       </div>
@@ -322,7 +322,7 @@ const App = () => {
           className="w-full bg-white text-green-600 py-4 px-6 rounded-2xl font-bold text-xl flex items-center justify-center space-x-3 shadow-lg hover:bg-green-50 transition-colors"
         >
           <Shuffle className="w-6 h-6" />
-          <span>Pergunta Aleatória</span>
+          <span>Pregunta Aleatoria</span>
         </button>
 
         <div className="mt-4 bg-white/20 rounded-2xl p-3 text-center">
@@ -410,30 +410,30 @@ const App = () => {
 
         <div className="bg-white rounded-3xl p-6 shadow-2xl space-y-6">
           <div>
-            <h3 className="text-xl font-bold text-gray-800 mb-3">📋 Regras Básicas</h3>
+            <h3 className="text-xl font-bold text-gray-800 mb-3">📋 Reglas Básicas</h3>
             <div className="space-y-3 text-gray-700">
-              <p>• Cada jogador lê uma pergunta em voz alta</p>
-              <p>• Quem já passou pela situação deve beber</p>
-              <p>• Seja honesto - a diversão está na sinceridade!</p>
-              <p>• Respeite os limites de todos</p>
+              <p>• Cada jugador lee una pregunta en voz alta</p>
+              <p>• Quien ya ha pasado por la situación debe beber</p>
+              <p>• Sé honesto - ¡la diversión está en la sinceridad!</p>
+              <p>• Respeta los límites de todos</p>
             </div>
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-3">🍷 Alternativas</h3>
             <div className="space-y-3 text-gray-700">
-              <p>• Substituir bebida por: água, suco, refrigerante</p>
-              <p>• Fazer atividade: flexão, agachamento, dança</p>
-              <p>• Contar uma história relacionada</p>
+              <p>• Sustituir bebida por: agua, jugo, refresco</p>
+              <p>• Hacer actividad: flexiones, sentadillas, baile</p>
+              <p>• Contar una historia relacionada</p>
             </div>
           </div>
 
           <div>
             <h3 className="text-xl font-bold text-gray-800 mb-3">⚠️ Importante</h3>
             <div className="space-y-3 text-gray-700">
-              <p>• Beba com responsabilidade</p>
-              <p>• Não dirija após consumir álcool</p>
-              <p>• Pare se alguém se sentir desconfortável</p>
+              <p>• Bebe con responsabilidad</p>
+              <p>• No conduzcas después de consumir alcohol</p>
+              <p>• Para si alguien se siente incómodo</p>
             </div>
           </div>
 
