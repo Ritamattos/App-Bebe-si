@@ -439,7 +439,7 @@ const App = () => {
 
           <div className="bg-green-50 p-4 rounded-xl">
             <p className="text-green-800 text-center font-medium">
-              Diversão garantida com 150+ perguntas picantes! 🔥
+              ¡Diversión garantizada con más de 150 preguntas picantes! 🔥
             </p>
           </div>
         </div>
