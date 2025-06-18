@@ -344,27 +344,27 @@ const App = () => {
           >
             <Home className="w-6 h-6" />
           </button>
-          <h2 className="text-2xl font-bold text-white">Criar Perguntas</h2>
+          <h2 className="text-2xl font-bold text-white">Crear preguntas</h2>
         </div>
 
         <div className="bg-white rounded-3xl p-6 shadow-2xl mb-6">
-          <h3 className="text-xl font-bold text-gray-800 mb-4">Nova Pergunta</h3>
+          <h3 className="text-xl font-bold text-gray-800 mb-4">Nueva pregunta</h3>
           <textarea
             value={newQuestion}
             onChange={(e) => setNewQuestion(e.target.value)}
-            placeholder="Ex: ficou com alguém no trabalho"
+            placeholder="Ejemplo: saliste con alguien en el trabajo"
             className="w-full border-2 border-green-200 rounded-xl p-4 text-gray-800 resize-none focus:border-green-500 focus:outline-none"
             rows="3"
           />
           <p className="text-gray-500 text-sm mt-2 mb-4">
-            Não precisa escrever "Se você já" no início
+           No es necesario escribir "Si alguna vez" al inicio.
           </p>
           <button
             onClick={addCustomQuestion}
             disabled={!newQuestion.trim()}
             className="w-full bg-green-500 text-white py-3 px-6 rounded-xl font-bold disabled:bg-gray-300 hover:bg-green-600 transition-colors"
           >
-            Adicionar Pergunta
+            Agregar preguntas
           </button>
         </div>
 
