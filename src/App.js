@@ -300,7 +300,7 @@ const App = () => {
             <Home className="w-6 h-6" />
           </button>
           <div className="text-white text-center">
-            <p className="text-sm opacity-80">Pergunta</p>
+            <p className="text-sm opacity-80">Pregunta</p>
             <p className="text-xl font-bold">{currentQuestionIndex + 1} / {gameQuestions.length}</p>
           </div>
           <button
@@ -327,7 +327,7 @@ const App = () => {
 
         <div className="mt-4 bg-white/20 rounded-2xl p-3 text-center">
           <p className="text-white text-sm">
-            Clique para uma nova pergunta surpresa!
+            ¡Haz clic para una nueva pregunta sorpresa!
           </p>
         </div>
       </div>
